@@ -11,15 +11,22 @@
 </head>
 <body>
     <header>
-        <h2 class="text-md-center m-5 bg-success bg-opacity-90 text-light p-4">Juego del amigo invisible</h2>
+        <h2 class="text-md-center m-5 bg-success bg-opacity-80 text-light p-4 rounded-3">Juego del amigo invisible</h2>
     </header>
     <div class="container mt-5">
         <div class="row">
             <input class="form-control shadow"type="text" placeholder="Escriba los participantes, separados por comas" id="personas" >
         </div>
         <div class="text-center">
-            <button class="text-md-center mt-3 btn btn-success shadow" onclick="inicio()">Comenzar</button>
+            <button class="text-md-center mt-4 btn btn-success shadow" onclick="inicio()">Comenzar</button>
         </div>
     </div>
+    <div class="m-5">
+        <h5 class="p-4">El resultado del sorteo es:</h5>
+        <p class="m-5" id="resultado">Aquí se mostrará el resultado del sorteo</p>
+    </div>
+    <footer class="bg-success bg-opacity-50 card-footer">
+        <p class="text-end p-5 mt-2" style="color: rgba(255, 255, 255, 0.801);">Copyright @2021 Manel | Roger | Pedro</p>
+    </footer>
 </body>
 </html>
